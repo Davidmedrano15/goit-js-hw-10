@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>The Cat API</title>
+  </head>
+  <body>
+    <h1>The Cat API</h1>
+    <div class="container">
+      <select class="breed-select"></select>
+      <div class="loader">Loading...</div>
+      <div class="error">Error occurred while fetching data.</div>
+      <div class="cat-info">
+        <h2>Information about the cat:</h2>
+        <div class="cat-image"></div>
+        <div class="cat-details">
+          <h3>Name: <span class="cat-name"></span></h3>
+          <p>Description: <span class="cat-description"></span></p>
+          <p>Temperament: <span class="cat-temperament"></span></p>
+        </div>
+      </div>
+    </div>
+    <script type="module" src="js/cat-api.js"></script>
+    <script type="module" src="js/app.js"></script>
+  </body>
+</html>
